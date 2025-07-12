@@ -1,8 +1,8 @@
 # Codehub
 
-*Empowering Minds, Accelerating Innovation Through Coding Excellence*
 
-![GitHub last commit](https://img.shields.io/github/last-commit/piyu5h25/Project-Summer) ![GitHub top language](https://img.shields.io/github/languages/top/piyu5h25/Project-Summer) ![GitHub language count](https://img.shields.io/github/languages/count/piyu5h25/Project-Summer)
+
+
 
 ---
 ## Live Link
@@ -14,17 +14,21 @@
 
 ## Built with the tools and technologies:
 
-![Express](https://img.shields.io/badge/-Express-black?logo=express) 
-![JSON](https://img.shields.io/badge/-JSON-black?logo=json) 
-![Markdown](https://img.shields.io/badge/-Markdown-black?logo=markdown) 
-![npm](https://img.shields.io/badge/-npm-red?logo=npm) 
-![Mongoose](https://img.shields.io/badge/-Mongoose-cc0000?logo=mongoose) 
-![DotEnv](https://img.shields.io/badge/-.ENV-yellowgreen)
-![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?logo=javascript) 
-![Nodemon](https://img.shields.io/badge/-Nodemon-green?logo=nodemon)
-![MongoDB](https://img.shields.io/badge/-MongoDB-green?logo=mongodb)
-![React](https://img.shields.io/badge/-React-00c8ff?logo=react)
-![Axios](https://img.shields.io/badge/-Axios-purple)
+- Express
+- JSON
+- AWS
+- npm
+- Mongoose
+- DotEnv
+- JavaScript
+- Nodemon
+- MongoDB
+- React
+- Axios
+- Docker
+- Vite
+- Talwind
+  
 
 ---
 
@@ -49,12 +53,14 @@ CodeHub is an all-in-one platform that empowers developers to build scalable onl
 
 This project simplifies the creation of competitive programming platforms by providing essential features out-of-the-box:
 
-- 🎯 🧩 **Problem & Contest Management**: Organize and manage coding challenges efficiently.
-- 🚀 ⚙️ **Real-Time Submission & Evaluation**: Seamlessly submit code and receive instant feedback.
-- 🔒 🔑 **Secure Authentication**: Protect user data with JWT and MongoDB integration.
-- 🖥️ 🌐 **Intuitive React Interface**: Navigate effortlessly through problem sets, leaderboards, and user dashboards.
-- 📊 📈 **Activity & Leaderboard Tracking**: Foster engagement with real-time activity updates and rankings.
-- 🛠️ 🧩 **Modular Architecture**: Easily extend and customize for your specific needs.
+-  **Problem & Contest Management**: Organize and manage coding challenges efficiently.
+-  **Inbuilt Compiler**: Compiler built using nodejs_child process so no external API used.
+-  **AI Review**: Uses AI to review your code.
+-  **Real-Time Submission & Evaluation**: Seamlessly submit code and receive instant feedback.
+-  **Secure Authentication**: Protect user data with JWT and MongoDB integration.
+-  **Intuitive React Interface**: Navigate effortlessly through problem sets, leaderboards, and user dashboards.
+-  **Activity & Leaderboard Tracking**: Foster engagement with real-time activity updates and rankings.
+-  **Modular Architecture**: Easily extend and customize for your specific needs.
 
 ---
 
@@ -69,7 +75,7 @@ This project requires the following dependencies:
 
 ---
 
-## 📦 Installation
+##  Installation
 
 Build **Online\_Codehub** from the source and install dependencies:
 
@@ -86,9 +92,9 @@ Build **Online\_Codehub** from the source and install dependencies:
    ```
 3. **Navigate to the client directory**:
 
- ```bash
- cd client
- ```
+   ```bash
+   cd client
+   ```
 
 4. **Install the dependencies**:
 
@@ -98,9 +104,9 @@ Build **Online\_Codehub** from the source and install dependencies:
 
 5. **Navigate to the server directory**:
 
- ```bash
- cd server
- ```
+   ```bash
+   cd server
+   ```
 
 6. **Install the dependencies**:
 
@@ -109,9 +115,9 @@ Build **Online\_Codehub** from the source and install dependencies:
    ```
 7. **Navigate to the compiler directory**:
 
- ```bash
- cd compiler
- ```
+   ```bash
+   cd compiler
+   ```
 
 8. **Install the dependencies and build docker image**:
 
@@ -135,30 +141,28 @@ Build **Online\_Codehub** from the source and install dependencies:
    ```
 11. ** env files for client**
    ```bash
-   VITE_COMPILER_URL= 
-   VITE_BACKEND_URL=
+   VITE_COMPILER_URL
+   VITE_BACKEND_URL
    ```
 12. ** env files for compiler**
    ```bash
-   PORT = 
-    AI_API_KEY = 
-    MODEL_NAME = 
+   PORT  
+   AI_API_KEY  
+   MODEL_NAME  
 
    ```
 13. ** env files for compiler**
    ```bash
-   PORT = 
-    PORT = 5000
-    MONGO_URL = 
-    JWT_SECRET = 
-    CLIENT_URL = 
-    COMPILER_URL = 
-    
-    
+   
+    PORT 
+    MONGO_URL  
+    JWT_SECRET  
+    CLIENT_URL  
+    COMPILER_URL  
     ADMIN_EMAIL = 
     ADMIN_PASSWORD = 
 
    ```
 
 
-> 🙋‍♂️ *Made with* ❤️ *by [Piyush Trivedi](https://github.com/piyu5h25)*
+>  *Made with* ❤️ *by [Piyush Trivedi](https://github.com/piyu5h25)*
