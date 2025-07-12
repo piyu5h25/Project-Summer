@@ -5,6 +5,12 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/piyu5h25/Project-Summer) ![GitHub top language](https://img.shields.io/github/languages/top/piyu5h25/Project-Summer) ![GitHub language count](https://img.shields.io/github/languages/count/piyu5h25/Project-Summer)
 
 ---
+## Live Link
+[Visit Live App](https://code-hub-neon.vercel.app/)
+
+## Demo Link
+[Watch Demo](https://drive.google.com/file/d/1i9Qx4gtVTlDneg502FzalP0uIuluh032/view?usp=sharing)
+
 
 ## Built with the tools and technologies:
 
